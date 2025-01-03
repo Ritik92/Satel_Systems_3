@@ -55,36 +55,6 @@ console.log(b); // Output: 30
 
 
 
-// function sumNmul(num1,num2){
-// let sum=num1+num2;
-// console.log(sum)
-// let mul=num1*num2;
-// console.log(mul)
-// }
-// // 1,2,3,4,5
-
-// sumNmul(1,2)
-
-// let sum=1+2;
-// console.log(sum)
-// let mul=1*2;
-// console.log(mul)
-
-//  sum=2+3;
-// console.log(sum)
-//  mul=2*3;
-// console.log(mul)
-
-//  sum=3+4;
-// console.log(sum)
-//  mul=3*4;
-// console.log(mul)
-
-//  sum=4+5;
-// console.log(sum)
-//  mul=4*5;
-// console.log(mul)
-
 
 
 
@@ -142,6 +112,7 @@ const hoistedArrow = () => "I'm not hoisted.";
 
 // **3.1 Array Destructuring**
 const colors = ["red", "green", "blue"];
+
 const [primary, secondary] = colors; // Extract first and second elements
 console.log(primary, secondary); // Output: red green
 
@@ -155,6 +126,9 @@ const car = {
   model: "Corolla",
   year: 2020,
 };
+
+
+
 const { brand, model } = car; // Extract brand and model properties
 console.log(brand, model); // Output: Toyota Corolla
 
@@ -178,9 +152,9 @@ console.log(tail); // Output: [2, 3, 4]
 
 // **4.2 Spread Operator**
 // Expanding arrays
-// const arr1 = [1, 2];
-// const arr2 = [...arr1, 3, 4];
-// console.log(arr2)
+const arr1 = [1,2,3,4,5,6];
+const arr2 = [...arr1,7,8,9,10];
+// console.log(arr2) [1,2,3,4,5,6,7,8,9,10]
 
 
 // Combining objects
@@ -224,6 +198,7 @@ console.log(canVoteIfElse); // Output: Yes
 const user = {
    profile: { name: "Alice" }
    };
+
 console.log(user?.profile?.name); // Output: Alice
 console.log(user?.address?.city); // Output: undefined
 
@@ -242,12 +217,15 @@ const numbers = [1, 2, 3];
 // }
 
 
-const squares = numbers.map((n) => n+1);
+const squares = numbers.map((n) => n*n);
 console.log(squares); // Output: [1, 4, 9]
 
 // **filter**: Filter elements based on a condition.
 const evens = numbers.filter((n) => n % 2 === 0);
 console.log(evens); // Output: [2]
+
+
+
 
 /**
  * 8. setInterval and clearInterval

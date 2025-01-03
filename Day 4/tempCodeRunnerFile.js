@@ -1,1 +1,4 @@
-console.log(arr2); 
+{
+    name: "raman",
+    age: 22
+}

@@ -6,7 +6,7 @@
     border-radius: 10px; /* Rounds the corners */
     padding: 20px; /* Adds space inside the box */
     margin: 50px; /* Adds space outside the box */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
     text-align: center; /* Centers the text */
     font-size: 40px; /* Sets font size */
 }
