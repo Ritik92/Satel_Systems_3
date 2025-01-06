@@ -44,15 +44,15 @@ console.log(""); // Empty line for readability
 // Use this to loop through the values of an iterable like an array or a string.
 console.log("For...Of Loop Example:");
 const colors = ["red", "green", "blue"];
-for (let color of colors) {
+for (let key of colors) {
     // Loops through each value in the array
-    console.log(color); // Outputs: red, green, blue
+    console.log(key); // Outputs: red, green, blue
 }
 
 // You can also use it with strings
 console.log("For...Of Loop with String:");
-for (let char of "hello") {
-    console.log(char); // Outputs: h, e, l, l, o
+for (let key of "hello") {
+    console.log(key); // Outputs: h, e, l, l, o
 }
 console.log(""); // Empty line for readability
 
